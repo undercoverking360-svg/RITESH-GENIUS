@@ -35,7 +35,7 @@ export default async function handler(req, res) {
           { role: 'user', content: question }
         ],
         temperature: 0.6, // Thoda stable aur focused output ke liye
-        max_tokens: 4096, // Lambe answer ke liye limit badha di
+        max_tokens: 8192, // Lambe answer ke liye limit badha di
         top_p: 0.95,
         frequency_penalty: 0.2, // Taaki bar-bar ek hi baat na bole
         presence_penalty: 0.1
